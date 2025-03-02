@@ -11,6 +11,7 @@ function Navigation({ todo, setTodo }) {
 
   if (!name) {
    window.alert("Please write something in the given field!");
+   return; // this return will stop working after it
   }
 
   const data = {
