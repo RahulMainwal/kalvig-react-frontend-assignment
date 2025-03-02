@@ -1,0 +1,65 @@
+#navigation_container {
+ width: 100%;
+ background-color: rgb(223, 171, 135);
+ display: flex;
+ justify-content: center;
+}
+
+#navigation_container form {
+ width: 600px;
+ max-width: 100%;
+ display: flex;
+ padding: 15px 10px;
+ gap: 5px;
+}
+
+#navigation_container form .name_input {
+ width: 100%;
+ font-size: 20px;
+ padding: 5px 8px;
+ border-radius: 8px 0 0 8px;
+ border: none;
+ outline: 3px solid gray;
+}
+
+#navigation_container form .name_input:focus {
+ border: none;
+ outline: 2px solid rgb(255, 166, 0);
+}
+
+#navigation_container form .submit_button {
+ font-size: 20px;
+ padding: 8px;
+ width: 100px;
+ border-radius: 0 8px 8px 0;
+ border: none;
+ outline: 3px solid gray;
+ background-color: black;
+ color: white;
+}
+
+#list {
+ display: flex;
+ justify-content: space-between;
+ margin: 10px 0;
+ padding: 5px 20px;
+ width: 100%;
+}
+
+#list .checkbox_text {
+ display: flex;
+ width: 100%;
+ gap: 10px;
+}
+
+#list .checkbox_text input {
+ width: 20px;
+}
+
+#list .checkbox_text .text {
+ width: 100%;
+}
+
+#list .delete_action {
+ width: 50px;
+}

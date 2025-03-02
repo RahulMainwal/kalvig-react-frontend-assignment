@@ -1,0 +1,31 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ width: 100%;
+}
+
+#headline {
+ text-align: center;
+ margin: 10px 0;
+}
+
+#todo_container {
+ display: flex;
+ justify-content: center;
+ left: 0;
+ right: 0;
+ margin: auto;
+}
+
+#todo_container div {
+ width: 600px;
+ max-width: 100%;
+}
+
+#empty_container {
+ text-align: center;
+ height: 80vh;
+ display: flex;
+ align-items: center;
+}
